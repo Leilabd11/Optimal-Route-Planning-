@@ -25,8 +25,13 @@ Solves the ETSP using the Greedy heuristic.
 ### Trajectory_plot.m
 Plots the trajectory of the solution on a grid with obstacles.
 
+### DubinsCircles.m
+Implements DubinsCircles to smooth the trajectories. 
+Only implemented for the 6 cities example case
+
 ### path_cost.m
 Calculates the cost of a given path for the Greedy heuristic.
 
 ### path_greedy.m
 Generates a path using a greedy heuristic.
+
